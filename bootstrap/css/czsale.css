@@ -163,7 +163,7 @@ a.list-subgroup-item:hover, a.list-subgroup-item.active, a.list-subgroup-item.ac
   width: 13px;
   height: 0;
   padding-top: 13px;
-  background-image: url(../img/pagination.png);
+  background-image: url(../..//index/img/pagination.png);
   background-position: 0 0;
   float: left;
   overflow: hidden;

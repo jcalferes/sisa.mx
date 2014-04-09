@@ -157,9 +157,8 @@
                             <?php
                         }
                         ?>
-                            <!--<img src="img/slides/1.png"/>-->
-                        <a href="#" class="slidesjs-previous slidesjs-navigation"><i class="icon-chevron-left icon-large"></i></a>
-                        <a href="#" class="slidesjs-next slidesjs-navigation"><i class="icon-chevron-right icon-large"></i></a>
+                        <a href="#" class="slidesjs-previous slidesjs-navigation"><i class="glyphicon glyphicon-chevron-left"></i></a>
+                        <a href="#" class="slidesjs-next slidesjs-navigation"><i class="glyphicon glyphicon-chevron-right"></i></a>
                     </div>
                     <!--TERMINAR SLIDER-->
                     <h4>Recomendado</h4>
