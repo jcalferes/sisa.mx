@@ -146,9 +146,18 @@
                     <h4>Patrocinado</h4>
                     <!--SLIDER-->
                     <div id="slides">
-                        <img src="img/slides/slide-00.jpg">
-                        <img src="img/slides/slide-01.jpg">
-                        <img src="img/slides/slide-02.jpg">
+                        <?php
+                        include '../DaoConnection/coneccion.php';
+                        $cn = new coneccion();
+                        $sql = "SELECT * FROM imagenes";
+                        $datos = mysql_query($sql, $cn->Conectarse());
+                        while ($rs = mysql_fetch_array($datos)) {
+                            ?>
+                            <img src="<?php echo $rs["ruta"]; ?>">
+                            <?php
+                        }
+                        ?>
+                            <!--<img src="img/slides/1.png"/>-->
                         <a href="#" class="slidesjs-previous slidesjs-navigation"><i class="icon-chevron-left icon-large"></i></a>
                         <a href="#" class="slidesjs-next slidesjs-navigation"><i class="icon-chevron-right icon-large"></i></a>
                     </div>
