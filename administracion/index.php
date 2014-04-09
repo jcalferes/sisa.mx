@@ -153,9 +153,9 @@
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="inputPassword3" class="col-sm-2 control-label">Titulo :</label>
+                            <label  class="col-sm-2 control-label">Titulo :</label>
                             <div class="col-sm-10">
-                                <input type="password" class="form-control" id="titulo" placeholder="Password">
+                                <input type="text" class="form-control" id="titulo" name="titulo" placeholder="Titulo">
                             </div>
                         </div>
                         <div class="form-group">
@@ -164,6 +164,7 @@
                                 <textarea class="form-control"
                                           id="descripcion"
                                           rows="3" 
+                                          name="descripcion"
                                           placeholder="Descripcion"></textarea>
                             </div>
                         </div>
