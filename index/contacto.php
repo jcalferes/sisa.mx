@@ -10,7 +10,7 @@
         <link href="../bootstrap/css/bootstrap.css" rel="stylesheet" media="screen">
         <link href="../bootstrap/css/czsale.css" rel="stylesheet" media="screen">
         <link href="../bootstrap/css/czsale-responsive.css" rel="stylesheet" media="screen">
-        <title>CZSale - Classified Ads Website</title>
+        <title>SYSA Industrial</title>
     </head>
     <body>
         <div class="container wrapper">   
@@ -33,21 +33,21 @@
                     <a href="addClassified.html" class="btn btn-success navbar-btn add-classified-btn navbar-left" role="button">Add classified</a>
                     <ul class="nav navbar-nav navbar-right">
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <b class="caret"></b></a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Paginas <b class="caret"></b></a>
                             <ul class="dropdown-menu">
-                                <li><a href="index.html">Home page</a></li>
-                                <li><a href="addClassified.html">Add classified</a></li>
-                                <li><a href="category.html">Category page</a></li>
-                                <li><a href="detail.html">Classified detail</a></li>
-                                <li><a href="conditions.html">Rules & Conditions</a></li>
-                                <li><a href="help.html">Help (FAQ)</a></li>
-                                <li><a href="contact.html">Contact</a></li>
-                                <li><a href="signUp.html">Sign Up</a></li>
+                               <!--<li><a href="index.html">Inicio</a></li>-->
+                                <li><a href="agregarProducto.php">Agregar producto</a></li>
+                                <!--<li><a href="category.html">Category page</a></li>-->
+                                <li><a href="detalles.php">Detalles</a></li>
+                                <!--<li><a href="conditions.html">Rules & Conditions</a></li>-->
+                                <!--<li><a href="help.html">Help (FAQ)</a></li>-->
+                                <!--<li><a href="signUp.html">Sign Up</a></li>-->
                             </ul>
                         </li>
-                        <li><a href="help.html">Help</a></li>
-                        <li><a href="signUp.html">Sign Up</a></li>
-                        <li class="dropdown">
+                        <li><a href="contacto.php">Contacto</a></li>
+                        <!--<li><a href="help.html">Help</a></li>-->
+                        <!--<li><a href="signUp.html">Sign Up</a></li>-->
+<!--                        <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Sign in <b class="caret"></b></a>
                             <ul class="dropdown-menu" style="padding: 15px;min-width: 250px;">
                                 <li>
@@ -80,7 +80,7 @@
                                     <input class="btn btn-primary btn-block" type="button" id="sign-in-twitter" value="Sign In with Twitter">
                                 </li>
                             </ul>
-                        </li>
+                        </li>-->
                     </ul>
                 </div>
             </nav>
@@ -95,7 +95,7 @@
                     <h2>Contact</h2>
                     <div class="row">
                         <div class="col-md-8">
-                            <iframe src="http://mapsengine.google.com/map/embed?mid=z-BEFzFo7gdM.kYdiUKVQpQQI" style="border: none; width: 100%; height: 400px;"></iframe>  
+                            <iframe src="http://mapsengine.google.com/map/edit?mid=z4AJqEOxN-SI.kHxwRDMJz1Sg" style="border: none; width: 100%; height: 400px;"></iframe>  
                         </div>
                         <div class="col-md-4">
                             <div class="well well-sm">

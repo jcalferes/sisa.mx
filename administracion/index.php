@@ -10,13 +10,13 @@
         <!--<link href="../bootstrap/css/bootstrap-theme.css" rel="stylesheet" media="screen">-->
         <link href="../bootstrap/css/czsale.css" rel="stylesheet" media="screen">
         <link href="../bootstrap/css/czsale-responsive.css" rel="stylesheet" media="screen">
-        <title>CZSale - Classified Ads Website</title>
+        <title>SYSA Industrial</title>
     </head>
     <body>
         <div class="container wrapper">   
             <!-- Logo -->
             <div class="logo">
-                <a href="index.html"><img src="../index/img/czsale_logo.png"></a>
+                <a href="../index/index.php"><img src="../index/img/czsale_logo.png"></a>
             </div>
             <!-- /Logo -->  
             <!-- Static navbar -->
@@ -30,24 +30,24 @@
                     </button>
                 </div>
                 <div class="collapse navbar-collapse" id="czsale-navbar">
-                    <a href="addClassified.html" class="btn btn-success navbar-btn add-classified-btn navbar-left" role="button">Add classified</a>
+                    <!--<a href="addClassified.html" class="btn btn-success navbar-btn add-classified-btn navbar-left" role="button">Add classified</a>-->
                     <ul class="nav navbar-nav navbar-right">
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <b class="caret"></b></a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Paginas <b class="caret"></b></a>
                             <ul class="dropdown-menu">
-                                <li><a href="index.html">Home page</a></li>
-                                <li><a href="addClassified.html">Add classified</a></li>
-                                <li><a href="category.html">Category page</a></li>
-                                <li><a href="detail.html">Classified detail</a></li>
-                                <li><a href="conditions.html">Rules & Conditions</a></li>
-                                <li><a href="help.html">Help (FAQ)</a></li>
-                                <li><a href="contact.html">Contact</a></li>
-                                <li><a href="signUp.html">Sign Up</a></li>
+                                <!--<li><a href="index.html">Inicio</a></li>-->
+                                <li><a href="../index/agregarProducto.php">Agregar producto</a></li>
+                                <!--<li><a href="category.html">Category page</a></li>-->
+                                <li><a href="../index/detalles.php">Detalles</a></li>
+                                <!--<li><a href="conditions.html">Rules & Conditions</a></li>-->
+                                <!--<li><a href="help.html">Help (FAQ)</a></li>-->
+                                <!--<li><a href="signUp.html">Sign Up</a></li>-->
                             </ul>
                         </li>
-                        <li><a href="help.html">Help</a></li>
-                        <li><a href="signUp.html">Sign Up</a></li>
-                        <li class="dropdown">
+                        <li><a href="../index/contacto.php">Contacto</a></li>
+                        <!--<li><a href="help.html">Help</a></li>-->
+                        <!--<li><a href="signUp.html">Sign Up</a></li>-->
+<!--                        <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Sign in <b class="caret"></b></a>
                             <ul class="dropdown-menu" style="padding: 15px;min-width: 250px;">
                                 <li>
@@ -78,7 +78,7 @@
                                 <li>
                                     <input class="btn btn-primary btn-block" type="button" id="sign-in-google" value="Sign In with Google">
                                     <input class="btn btn-primary btn-block" type="button" id="sign-in-twitter" value="Sign In with Twitter">
-                                </li>
+                                </li>-->
                             </ul>
                         </li>
                     </ul>
@@ -88,27 +88,27 @@
             <!-- Content -->
             <div class="row content">
                 <div class="col-lg-3 content-left">
-                    <h4>Search</h4>
+                    <h4>Buscar</h4>
                     <div class="well well-sm">
                         <form>
                             <fieldset>
                                 <input type="text" class="form-control" />
-                                <small><a href="#" class="btn-advanced-search">Advanced</a></small>
-                                <input type="submit" class="btn btn-danger btn-sm btn-search" value="Search" />
+                                <!--<small><a href="#" class="btn-advanced-search">Advanced</a></small>-->
+                                <input type="submit" class="btn btn-danger btn-sm btn-search" value="Buscar" />
                             </fieldset>
                         </form>
                     </div>
-                    <h4>Categories</h4>
+                    <h4>Categorias</h4>
                     <div class="list-group categories">
-                        <a href="#" class="list-group-item">Books <span class="glyphicon glyphicon-chevron-right"></span></a>
-                        <a href="#" class="list-group-item">Cameras & Photo <span class="glyphicon glyphicon-chevron-right"></span></a>
-                        <a href="#" class="list-group-item">Cell Phones & Accessories <span class="glyphicon glyphicon-chevron-right"></span></a>
-                        <a href="#" class="list-group-item">Clothing, Shoes & Accessories <span class="glyphicon glyphicon-chevron-right"></span></a>
-                        <a href="#" class="list-group-item">Computers & Networking <span class="glyphicon glyphicon-chevron-right"></span></a>
+                        <a href="#" class="list-group-item">Industria <span class="glyphicon glyphicon-chevron-right"></span></a>
+                        <a href="#" class="list-group-item">Comercio <span class="glyphicon glyphicon-chevron-right"></span></a>
+                        <a href="#" class="list-group-item">Gobierno <span class="glyphicon glyphicon-chevron-right"></span></a>
+                        <a href="#" class="list-group-item">Publico <span class="glyphicon glyphicon-chevron-right"></span></a>
+<!--                        <a href="#" class="list-group-item">Computers & Networking <span class="glyphicon glyphicon-chevron-right"></span></a>
                         <a href="#" class="list-group-item">DVDs & Movies <span class="glyphicon glyphicon-chevron-right"></span></a>
                         <a href="#" class="list-group-item">Health & Beauty <span class="glyphicon glyphicon-chevron-right"></span></a>
                         <a href="#" class="list-group-item">Music <span class="glyphicon glyphicon-chevron-right"></span></a>
-                        <a href="#" class="list-group-item">Toys & Hobbies <span class="glyphicon glyphicon-chevron-right"></span></a>
+                        <a href="#" class="list-group-item">Toys & Hobbies <span class="glyphicon glyphicon-chevron-right"></span></a>-->
                     </div>
                     <h4>Newest classifieds</h4>
                     <div class="newest-classifieds">
@@ -143,7 +143,6 @@
                     </div>
                 </div>
                 <div class="col-lg-9 content-right">
-                    
                     <h4>Altas de Imagenes</h4>
                     <form id="formu" class="form-horizontal" role="form">
                         <div class="form-group">
@@ -155,7 +154,7 @@
                         <div class="form-group">
                             <label for="inputPassword3" class="col-sm-2 control-label">Titulo :</label>
                             <div class="col-sm-10">
-                                <input type="password" class="form-control" id="titulo" placeholder="Password">
+                                <input type="password" class="form-control" id="titulo">
                             </div>
                         </div>
                         <div class="form-group">
