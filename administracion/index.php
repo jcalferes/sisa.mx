@@ -79,8 +79,8 @@
                                                             <input class="btn btn-primary btn-block" type="button" id="sign-in-google" value="Sign In with Google">
                                                             <input class="btn btn-primary btn-block" type="button" id="sign-in-twitter" value="Sign In with Twitter">
                                                         </li>-->
-                    </ul>
-                    </li>
+                        <!--</ul>-->
+                        <!--</li>-->
                     </ul>
                 </div>
             </nav>
@@ -154,7 +154,6 @@
                         <div class="form-group">
                             <label  class="col-sm-2 control-label">Titulo :</label>
                             <div class="col-sm-10">
-                                <input type="password" class="form-control" id="titulo">
                                 <input type="text" class="form-control" id="titulo" name="titulo" placeholder="Titulo">
                             </div>
                         </div>
