@@ -22,16 +22,16 @@ $(document).ready(function() {
 //        var formData = new FormData($(".formulario")[0]);
         var formData = new FormData($("form#formu")[0]);
         var message = "";
-                $.ajax({
-                    url: 'upload.php',
-                    type: 'POST',
-                    // Form data
-                    //datos del formulario
-                    data: formData,
-                    //necesario para subir archivos via ajax
-                    cache: false,
-                    contentType: false,
-                    processData: false});
+        $.ajax({
+            url: 'upload.php',
+            type: 'POST',
+            // Form data
+            //datos del formulario
+            data: formData,
+            //necesario para subir archivos via ajax
+            cache: false,
+            contentType: false,
+            processData: false});
     });
 
 
