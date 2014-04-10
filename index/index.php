@@ -251,7 +251,7 @@
                     <div class="pull-right">
                         <ul class="nav nav-pills">
                             <!--<li><a href="help.html">Help</a></li>-->
-                            <li><a href="contacto.php">Contact</a></li>
+                            <li><a href="contacto.php">Contacto</a></li>
                             <!--<li><a href="conditions.html">Rules & conditions</a></li>-->
                         </ul>
                     </div>

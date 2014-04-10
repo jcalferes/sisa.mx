@@ -87,17 +87,17 @@
             <!-- Content -->
             <div class="row content">
                 <div class="col-lg-3 content-left">
-                    <h4>Search</h4>
+                    <h4>Buscar</h4>
                     <div class="well well-sm">
                         <form>
                             <fieldset>
                                 <input type="text" class="form-control" />
                                 <!--<small><a href="#" class="btn-advanced-search">Advanced</a></small>-->
-                                <input type="submit" class="btn btn-danger btn-sm btn-search" value="Search" />
+                                <input type="submit" class="btn btn-danger btn-sm btn-search" value="Buscar" />
                             </fieldset>
                         </form>
                     </div>
-                    <h4>Categories</h4>
+                    <h4>Categorias</h4>
                     <div class="list-group categories">
                         <a href="#" class="list-group-item">Industria <span class="glyphicon glyphicon-chevron-right"></span></a>
                         <div class="list-subgroups">
@@ -117,54 +117,72 @@
                         <a href="#" class="list-group-item">Music <span class="glyphicon glyphicon-chevron-right"></span></a>
                         <a href="#" class="list-group-item">Toys & Hobbies <span class="glyphicon glyphicon-chevron-right"></span></a>-->
                     </div>
-                    <h4>Newest classifieds</h4>
+                    <h4>Productos Nuevos</h4>
                     <div class="newest-classifieds">
                         <div class="media">
                             <a class="pull-left" href="#">
-                                <img class="media-object" style="width: 64px; height: 64px;" src="http://placehold.it/64x64/e0e0e0" />
+                                <img class="media-object" style="width: 64px; height: 64px;" src="img/classifieds/ch1.jpg" />
                             </a>
                             <div class="media-body">
-                                <p><a href="#"><strong>Samsung Galaxy S4</strong></a></p>
-                                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel ...</p>
+                                <p><a href="#"><strong>Camisa Tipo 1</strong></a></p>
+                                <p>Pequeña descripcion del producto</p>
                             </div>
                         </div>
                         <div class="media">
                             <a class="pull-left" href="#">
-                                <img class="media-object" style="width: 64px; height: 64px;" src="http://placehold.it/64x64/e0e0e0" />
+                                <img class="media-object" style="width: 64px; height: 64px;" src="img/classifieds/chh8.jpg" />
                             </a>
                             <div class="media-body">
-                                <p><a href="#"><strong>Vizio 60" Slim Frame 3D LED</strong></a></p>
-                                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel ...</p>
+                                <p><a href="#"><strong>Chamarra Tipo 8</strong></a></p>
+                                <p>Pequeña descripcion del producto</p>
                             </div>
                         </div>
                         <div class="media">
                             <a class="pull-left" href="#">
-                                <img class="media-object" style="width: 64px; height: 64px;" src="http://placehold.it/64x64/e0e0e0" />
+                                <img class="media-object" style="width: 64px; height: 64px;" src="img/classifieds/ph1.jpg" />
                             </a>
                             <div class="media-body">
-                                <p><a href="#"><strong>Apple McBook Pro</strong></a></p>
-                                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel ...</p>
+                                <p><a href="#"><strong>Pantalon Tipo 1</strong></a></p>
+                                <p>Pequeña descripcion del producto</p>
                             </div>
                         </div>
-                        <p class="text-right show-more"><a href="#">More &rarr;</a></p>
+                        <p class="text-right show-more"><a href="#">Mas &rarr;</a></p>
                     </div>
                 </div>
                 <div class="col-lg-9 content-right">
                     <ol class="breadcrumb">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="#">Categories</a></li>
-                        <li><a href="#">Computers & Networking</a></li>
-                        <li><a href="category.html">PC, Computers</a></li>
+                        <li><a href="index.php">Inicio</a></li>
+                        <li><a href="#">Categorias</a></li>
+                        <li><a href="#">Industria</a></li>
+                        <li><a href="categorias.php">Overalles</a></li>
                     </ol>
-                    <h2>PC, Computers</h2>
+                    <h2>Industria</h2>
                     <div class="well well-sm" style="padding: 0; background-color: #FCF8E3;">
                         <div class="row top-classifieds">
                             <div class="col-md-2 top-classified">
                                 <div class="thumbnail">
-                                    <img src="http://placehold.it/400x300/e0e0e0" />
+                                    <img src="img/classifieds/ph2.jpg" />
                                     <div class="caption">
-                                        <p><small><a href="#">Samsung Galaxy S4</a></small><p>
-                                        <p><strong>550 EUR</strong></p>
+                                        <p><small><a href="#">Pantalon Tipo 2</a></small><p>
+                                        <p><strong>550 MXN</strong></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2 top-classified">
+                                <div class="thumbnail">
+                                    <img src="img/classifieds/chh9.jpg" />
+                                    <div class="caption">
+                                        <p><small><a href="#">Chamarra Tipo 9</a></small><p>
+                                        <p><strong>370 MXN</strong></p>                 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2 top-classified">
+                                <div class="thumbnail">
+                                    <img src="img/classifieds/ph1.jpg" />
+                                    <div class="caption">
+                                        <p><small><a href="#">Pantalon Tipo 1</a></small><p>
+                                        <p><strong>36 MXN</strong></p>
                                     </div>
                                 </div>
                             </div>
@@ -172,8 +190,8 @@
                                 <div class="thumbnail">
                                     <img src="http://placehold.it/400x300/e0e0e0" />
                                     <div class="caption">
-                                        <p><small><a href="#">Vizio 60" Slim Frame ...</a></small><p>
-                                        <p><strong>370 EUR</strong></p>                 
+                                        <p><small><a href="#">Otro</a></small><p>
+                                        <p><strong>740 MXN</strong></p>                    
                                     </div>
                                 </div>
                             </div>
@@ -181,8 +199,8 @@
                                 <div class="thumbnail">
                                     <img src="http://placehold.it/400x300/e0e0e0" />
                                     <div class="caption">
-                                        <p><small><a href="#">Logitech 2.1 HS-263</a></small><p>
-                                        <p><strong>36 EUR</strong></p>
+                                        <p><small><a href="#">Otro</a></small><p>
+                                        <p><strong>55 MXN</strong></p>                    
                                     </div>
                                 </div>
                             </div>
@@ -190,26 +208,8 @@
                                 <div class="thumbnail">
                                     <img src="http://placehold.it/400x300/e0e0e0" />
                                     <div class="caption">
-                                        <p><small><a href="#">Apple McBook Pro</a></small><p>
-                                        <p><strong>740 EUR</strong></p>                    
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-2 top-classified">
-                                <div class="thumbnail">
-                                    <img src="http://placehold.it/400x300/e0e0e0" />
-                                    <div class="caption">
-                                        <p><small><a href="#">Adidas Blake 46"</a></small><p>
-                                        <p><strong>55 EUR</strong></p>                    
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-2 top-classified">
-                                <div class="thumbnail">
-                                    <img src="http://placehold.it/400x300/e0e0e0" />
-                                    <div class="caption">
-                                        <p><small><a href="#">Nokia Lumia 800</a></small><p>
-                                        <p><strong>185 EUR</strong></p>                    
+                                        <p><small><a href="#">Otro</a></small><p>
+                                        <p><strong>185 MXN</strong></p>                    
                                     </div>
                                 </div>
                             </div>
@@ -221,25 +221,25 @@
                             <table class="table table-hover">
                                 <thead>
                                     <tr>
-                                        <th>Product</th>
-                                        <th class="text-center">Price</th>
-                                        <th class="text-center">Views</th>
+                                        <th>Producto</th>
+                                        <th class="text-center">Precio</th>
+                                        <th class="text-center">Visitas</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
                                         <td class="col-sm-8 col-md-6">
                                             <div class="media">
-                                                <a class="thumbnail pull-left" href="#">
-                                                    <img class="media-object" src="http://placehold.it/72x72/e0e0e0" style="width: 72px; height: 72px;" />
+                                                <a class="thumbnail pull-left" href="detalles.php">
+                                                    <img class="media-object" src="img/classifieds/8.jpg" style="width: 72px; height: 72px;" />
                                                 </a>
                                                 <div class="media-body">
-                                                    <h4 class="media-heading"><a href="#">Product name</a></h4>
-                                                    <p><small>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla adipiscing tempor ornare. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac ...</small></p>
+                                                    <h4 class="media-heading"><a href="detalles.php">Overall Especial</a></h4>
+                                                    <p><small>Descripcion del producto...</small></p>
                                                 </div>
                                             </div>
                                         </td>
-                                        <td class="col-sm-1 col-md-1 text-center" style="vertical-align: middle;"><strong>110.87 EUR</strong></td>
+                                        <td class="col-sm-1 col-md-1 text-center" style="vertical-align: middle;"><strong>110.87 MXN</strong></td>
                                         <td class="col-sm-1 col-md-1 text-center" style="vertical-align: middle;">76x</td>
                                     </tr>
                                     <tr>
@@ -344,15 +344,15 @@
                     </div>
                     <div class="pull-right">
                         <ul class="nav nav-pills">
-                            <li><a href="help.html">Help</a></li>
-                            <li><a href="contact.html">Contact</a></li>
-                            <li><a href="conditions.html">Rules & conditions</a></li>
+                            <!--<li><a href="help.html">Help</a></li>-->
+                            <li><a href="contacto.php">Contacto</a></li>
+                            <!--<li><a href="conditions.html">Rules & conditions</a></li>-->
                         </ul>
                     </div>
                     <div class="clearfix">&nbsp;</div>
                 </div>
                 <div class="pull-right">
-                    <p class="text-muted"><small>Copyright &copy; 2013-2014, SenseMedia.cz - All Rights Reserved.</small></p>
+                    <p class="text-muted"><small>Copyright &copy; 2013-2014, PC-Oriente - Todos los derechos reservados.</small></p>
                 </div>
             </div>
         </div>
