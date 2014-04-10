@@ -100,7 +100,7 @@
                     </div>
                     <h4>Categorias</h4>
                     <div class="list-group categories">
-                        <a href="#" class="list-group-item">Industria <span class="glyphicon glyphicon-chevron-right"></span></a>
+                        <a href="categorias.php" class="list-group-item">Industria <span class="glyphicon glyphicon-chevron-right"></span></a>
                         <a href="#" class="list-group-item">Comercio <span class="glyphicon glyphicon-chevron-right"></span></a>
                         <a href="#" class="list-group-item">Gobierno <span class="glyphicon glyphicon-chevron-right"></span></a>
                         <a href="#" class="list-group-item">Publico <span class="glyphicon glyphicon-chevron-right"></span></a>
@@ -114,32 +114,32 @@
                     <div class="newest-classifieds">
                         <div class="media">
                             <a class="pull-left" href="#">
-                                <img class="media-object" style="width: 64px; height: 64px;" src="http://placehold.it/64x64/e0e0e0" />
+                                <img class="media-object" style="width: 64px; height: 64px;" src="img/classifieds/ch1.jpg" />
                             </a>
                             <div class="media-body">
-                                <p><a href="#"><strong>Samsung Galaxy S4</strong></a></p>
-                                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel ...</p>
+                                <p><a href="#"><strong>Camisa Tipo 1</strong></a></p>
+                                <p>Pequeña descripcion del producto</p>
                             </div>
                         </div>
                         <div class="media">
                             <a class="pull-left" href="#">
-                                <img class="media-object" style="width: 64px; height: 64px;" src="http://placehold.it/64x64/e0e0e0" />
+                                <img class="media-object" style="width: 64px; height: 64px;" src="img/classifieds/chh8.jpg" />
                             </a>
                             <div class="media-body">
-                                <p><a href="#"><strong>Vizio 60" Slim Frame 3D LED</strong></a></p>
-                                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel ...</p>
+                                <p><a href="#"><strong>Chamarra Tipo 8</strong></a></p>
+                                <p>Pequeña descripcion del producto</p>
                             </div>
                         </div>
                         <div class="media">
                             <a class="pull-left" href="#">
-                                <img class="media-object" style="width: 64px; height: 64px;" src="http://placehold.it/64x64/e0e0e0" />
+                                <img class="media-object" style="width: 64px; height: 64px;" src="img/classifieds/ph1.jpg" />
                             </a>
                             <div class="media-body">
-                                <p><a href="#"><strong>Apple McBook Pro</strong></a></p>
-                                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel ...</p>
+                                <p><a href="#"><strong>Pantalon Tipo 1</strong></a></p>
+                                <p>Pequeña descripcion del producto</p>
                             </div>
                         </div>
-                        <p class="text-right show-more"><a href="#">More &rarr;</a></p>
+                        <p class="text-right show-more"><a href="#">Mas &rarr;</a></p>
                     </div>
                 </div>
                 <div class="col-lg-9 content-right">
@@ -165,37 +165,37 @@
                     <div class="row selected-classifieds">
                         <div class="col-lg-3">
                             <div class="thumbnail">
-                                <img src="http://placehold.it/800x600/e0e0e0" />
+                                <img src="img/classifieds/oh1.jpg" />
                                 <div class="caption">
-                                    <p><small><a href="#">Samsung Galaxy S4</a></small><p>
-                                    <p><strong>550 EUR</strong></p>
+                                    <p><small><a href="#">Overall Tipo 1</a></small><p>
+                                    <p><strong>550 MXN</strong></p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-3">
                             <div class="thumbnail">
-                                <img src="http://placehold.it/800x600/e0e0e0" />
+                                <img src="img/classifieds/oh2.jpg" />
                                 <div class="caption">
-                                    <p><small><a href="#">Vizio 60" Slim Frame 3D LED</a></small><p>
-                                    <p><strong>370 EUR</strong></p>                 
+                                    <p><small><a href="#">Overall Tipo 2</a></small><p>
+                                    <p><strong>370 MXN</strong></p>                 
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-3">
                             <div class="thumbnail">
-                                <img src="http://placehold.it/800x600/e0e0e0" />
+                                <img src="img/classifieds/oh3.jpg" />
                                 <div class="caption">
-                                    <p><small><a href="#">Logitech 2.1 HS-263</a></small><p>
-                                    <p><strong>36 EUR</strong></p>
+                                    <p><small><a href="#">Overall Tipo 3</a></small><p>
+                                    <p><strong>36 MXN</strong></p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-3">
                             <div class="thumbnail">
-                                <img src="http://placehold.it/800x600/e0e0e0" />
+                                <img src="img/classifieds/oh4.jpg" />
                                 <div class="caption">
-                                    <p><small><a href="#">Apple McBook Pro</a></small><p>
-                                    <p><strong>740 EUR</strong></p>                    
+                                    <p><small><a href="#">Overall Tipo 4</a></small><p>
+                                    <p><strong>900 MXN</strong></p>                    
                                 </div>
                             </div>
                         </div>
@@ -205,8 +205,8 @@
                             <div class="thumbnail">
                                 <img src="http://placehold.it/800x600/e0e0e0" />
                                 <div class="caption">
-                                    <p><small><a href="#">Adidas Blake 46"</a></small><p>
-                                    <p><strong>55 EUR</strong></p>
+                                    <p><small><a href="#">Otro...</a></small><p>
+                                    <p><strong>0 MXN</strong></p>
                                 </div>
                             </div>
                         </div>
@@ -214,8 +214,8 @@
                             <div class="thumbnail">
                                 <img src="http://placehold.it/800x600/e0e0e0" />
                                 <div class="caption">
-                                    <p><small><a href="#">Card reader MobileLite G2</a></small><p>
-                                    <p><strong>10 EUR</strong></p>
+                                    <p><small><a href="#">Otro...</a></small><p>
+                                    <p><strong>0 MXN</strong></p>
                                 </div>
                             </div>
                         </div>
@@ -223,8 +223,8 @@
                             <div class="thumbnail">
                                 <img src="http://placehold.it/800x600/e0e0e0" />
                                 <div class="caption">
-                                    <p><small><a href="#">Electonics toolkit (40 pieces)</a></small><p>
-                                    <p><strong>28 EUR</strong></p>
+                                    <p><small><a href="#">Otro...</a></small><p>
+                                    <p><strong>0 MXN</strong></p>
                                 </div>
                             </div>
                         </div>
@@ -232,8 +232,8 @@
                             <div class="thumbnail">
                                 <img src="http://placehold.it/800x600/e0e0e0" />
                                 <div class="caption">
-                                    <p><small><a href="#">Nokia Lumia 800</a></small><p>
-                                    <p><strong>185 EUR</strong></p>
+                                    <p><small><a href="#">Otro...</a></small><p>
+                                    <p><strong>0 MXN</strong></p>
                                 </div>
                             </div>
                         </div>

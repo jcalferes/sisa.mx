@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -16,7 +15,7 @@
         <div class="container wrapper">   
             <!-- Logo -->
             <div class="logo">
-                <a href="index.html"><img src="img/czsale_logo.png"></a>
+                <a href="index.php"><img src="img/czsale_logo.png"></a>
             </div>
             <!-- /Logo -->  
             <!-- Static navbar -->
@@ -35,7 +34,7 @@
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Paginas <b class="caret"></b></a>
                             <ul class="dropdown-menu">
-                               <!--<li><a href="index.html">Inicio</a></li>-->
+                                <!--<li><a href="index.html">Inicio</a></li>-->
                                 <li><a href="agregarProducto.php">Agregar producto</a></li>
                                 <!--<li><a href="category.html">Category page</a></li>-->
                                 <li><a href="detalles.php">Detalles</a></li>
@@ -47,40 +46,40 @@
                         <li><a href="contacto.php">Contacto</a></li>
                         <!--<li><a href="help.html">Help</a></li>-->
                         <!--<li><a href="signUp.html">Sign Up</a></li>-->
-<!--                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Sign in <b class="caret"></b></a>
-                            <ul class="dropdown-menu" style="padding: 15px;min-width: 250px;">
-                                <li>
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <form class="form" role="form" method="post" action="login" accept-charset="UTF-8" id="login-nav">
-                                                <div class="form-group">
-                                                    <label class="sr-only" for="exampleInputEmail2">Email address</label>
-                                                    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Email address" required>
-                                                </div>
-                                                <div class="form-group">
-                                                    <label class="sr-only" for="exampleInputPassword2">Password</label>
-                                                    <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password" required>
-                                                </div>
-                                                <div class="checkbox">
-                                                    <label>
-                                                        <input type="checkbox"> Remember me
-                                                    </label>
-                                                </div>
-                                                <div class="form-group">
-                                                    <button type="submit" class="btn btn-success btn-block">Sign in</button>
-                                                </div>
-                                            </form>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="divider"></li>
-                                <li>
-                                    <input class="btn btn-primary btn-block" type="button" id="sign-in-google" value="Sign In with Google">
-                                    <input class="btn btn-primary btn-block" type="button" id="sign-in-twitter" value="Sign In with Twitter">
-                                </li>
-                            </ul>
-                        </li>-->
+                        <!--                        <li class="dropdown">
+                                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Sign in <b class="caret"></b></a>
+                                                    <ul class="dropdown-menu" style="padding: 15px;min-width: 250px;">
+                                                        <li>
+                                                            <div class="row">
+                                                                <div class="col-md-12">
+                                                                    <form class="form" role="form" method="post" action="login" accept-charset="UTF-8" id="login-nav">
+                                                                        <div class="form-group">
+                                                                            <label class="sr-only" for="exampleInputEmail2">Email address</label>
+                                                                            <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Email address" required>
+                                                                        </div>
+                                                                        <div class="form-group">
+                                                                            <label class="sr-only" for="exampleInputPassword2">Password</label>
+                                                                            <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password" required>
+                                                                        </div>
+                                                                        <div class="checkbox">
+                                                                            <label>
+                                                                                <input type="checkbox"> Remember me
+                                                                            </label>
+                                                                        </div>
+                                                                        <div class="form-group">
+                                                                            <button type="submit" class="btn btn-success btn-block">Sign in</button>
+                                                                        </div>
+                                                                    </form>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li class="divider"></li>
+                                                        <li>
+                                                            <input class="btn btn-primary btn-block" type="button" id="sign-in-google" value="Sign In with Google">
+                                                            <input class="btn btn-primary btn-block" type="button" id="sign-in-twitter" value="Sign In with Twitter">
+                                                        </li>
+                                                    </ul>
+                                                </li>-->
                     </ul>
                 </div>
             </nav>
@@ -95,7 +94,8 @@
                     <h2>Contact</h2>
                     <div class="row">
                         <div class="col-md-8">
-                            <iframe src="http://mapsengine.google.com/map/edit?mid=z4AJqEOxN-SI.kHxwRDMJz1Sg" style="border: none; width: 100%; height: 400px;"></iframe>  
+                            <iframe src="https://mapsengine.google.com/map/embed?mid=z4AJqEOxN-SI.kHxwRDMJz1Sg" style="border: none; width: 100%; height: 400px;"></iframe>  
+                            <!--http://mapsengine.google.com/map/embed?mid=z-BEFzFo7gdM.kYdiUKVQpQQI-->
                         </div>
                         <div class="col-md-4">
                             <div class="well well-sm">
